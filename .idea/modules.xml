@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../rabbitmq-dlx-ttl/rabbitmq-dlx-ttl.iml" filepath="$PROJECT_DIR$/../rabbitmq-dlx-ttl/rabbitmq-dlx-ttl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rabbitmq-nodlq/rabbitmq-nodlq.iml" filepath="$PROJECT_DIR$/../rabbitmq-nodlq/rabbitmq-nodlq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rabbitmq-retry-exchange/rabbitmq-retry-exchange.iml" filepath="$PROJECT_DIR$/../rabbitmq-retry-exchange/rabbitmq-retry-exchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rabbitmq-retry-fmx/rabbitmq-retry-fmx.iml" filepath="$PROJECT_DIR$/../rabbitmq-retry-fmx/rabbitmq-retry-fmx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rabbitmq-ttl-dlq/rabbitmq-ttl-dlq.iml" filepath="$PROJECT_DIR$/../rabbitmq-ttl-dlq/rabbitmq-ttl-dlq.iml" />
+    </modules>
+  </component>
+</project>

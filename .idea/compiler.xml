@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rabbitmq-dlx-ttl" />
+        <module name="rabbitmq-ttl-dlq" />
+        <module name="rabbitmq-retry-exchange" />
+        <module name="rabbitmq-nodlq" />
+        <module name="rabbitmq-retry-fmx" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rabbitmq-broker-dlq" target="1.5" />
+      <module name="rabbitmq-dlx-ttl" target="17" />
+      <module name="rabbitmq-nodlq" target="17" />
+      <module name="rabbitmq-nodlx" target="1.5" />
+      <module name="rabbitmq-nodlx-fmx" target="1.5" />
+      <module name="rabbitmq-retry-exchage" target="1.5" />
+      <module name="rabbitmq-retry-exchange" target="17" />
+      <module name="rabbitmq-retry-fmx" target="17" />
+      <module name="rabbitmq-ttl-dlq" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rabbitmq-dlx-ttl" options="-parameters" />
+      <module name="rabbitmq-nodlq" options="-parameters" />
+      <module name="rabbitmq-retry-exchange" options="-parameters" />
+      <module name="rabbitmq-retry-fmx" options="-parameters" />
+      <module name="rabbitmq-ttl-dlq" options="-parameters" />
+    </option>
+  </component>
+</project>
